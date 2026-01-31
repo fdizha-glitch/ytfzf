@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savanna Wild Lodge & Mukombe Bar | African Safari Experience</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="loader">
+            <div class="loader-icon">🦁</div>
+            <p>Loading your adventure...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-icon">🌿</span>
+                <span class="logo-text">Savanna Wild</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#accommodations">Stay</a></li>
+                <li><a href="#mukombe-bar">Mukombe Bar</a></li>
+                <li><a href="#experiences">Experiences</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#booking" class="btn btn-nav">Book Now</a>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-content">
+            <span class="hero-subtitle animate-fade-up">Welcome to the Heart of Africa</span>
+            <h1 class="hero-title animate-fade-up delay-1">
+                Savanna Wild Lodge
+                <span class="hero-ampersand">&</span>
+                <span class="mukombe-highlight">Mukombe Bar</span>
+            </h1>
+            <p class="hero-description animate-fade-up delay-2">
+                Where untamed wilderness meets unparalleled luxury. Experience the magic of the African savanna.
+            </p>
+            <div class="hero-buttons animate-fade-up delay-3">
+                <a href="#experiences" class="btn btn-primary">Explore Safari</a>
+                <a href="#mukombe-bar" class="btn btn-outline">Visit Mukombe Bar</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll to Discover</span>
+            <div class="scroll-indicator"></div>
+        </div>
+        <div class="hero-wildlife">
+            <div class="wildlife-silhouette elephant"></div>
+            <div class="wildlife-silhouette giraffe"></div>
+            <div class="wildlife-silhouette tree"></div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-images">
+                    <div class="about-img-main">
+                        <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?w=600" alt="Safari Lodge Main">
+                    </div>
+                    <div class="about-img-secondary">
+                        <img src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=400" alt="African Wildlife">
+                    </div>
+                    <div class="about-experience-badge">
+                        <span class="badge-number">25+</span>
+                        <span class="badge-text">Years of Excellence</span>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <span class="section-label">Our Story</span>
+                    <h2 class="section-title">A Legacy of African Hospitality</h2>
+                    <p class="about-text">
+                        Nestled in the heart of the African wilderness, Savanna Wild Lodge offers an extraordinary
+                        escape where luxury meets the untamed beauty of nature. Our family-owned lodge has been
+                        welcoming adventurers and dreamers for over two decades.
+                    </p>
+                    <p class="about-text">
+                        Every sunset here tells a story, every dawn brings new wonders. From the legendary
+                        Mukombe Bar where tales are shared under starlit skies, to our exclusive safari
+                        experiences—we create memories that last a lifetime.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <div class="feature-icon"><i class="fas fa-leaf"></i></div>
+                            <div class="feature-text">
+                                <h4>Eco-Conscious</h4>
+                                <p>Sustainable luxury</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon"><i class="fas fa-paw"></i></div>
+                            <div class="feature-text">
+                                <h4>Big Five</h4>
+                                <p>Wildlife encounters</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon"><i class="fas fa-utensils"></i></div>
+                            <div class="feature-text">
+                                <h4>Fine Dining</h4>
+                                <p>African cuisine</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-icon">🦁</span>
+                    <span class="stat-number" data-target="500">0</span>
+                    <span class="stat-label">Wildlife Sightings Monthly</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-icon">🏠</span>
+                    <span class="stat-number" data-target="24">0</span>
+                    <span class="stat-label">Luxury Suites</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-icon">⭐</span>
+                    <span class="stat-number" data-target="15000">0</span>
+                    <span class="stat-label">Happy Guests</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-icon">🌍</span>
+                    <span class="stat-number" data-target="50000">0</span>
+                    <span class="stat-label">Acres of Wilderness</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accommodations Section -->
+    <section class="accommodations" id="accommodations">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Accommodations</span>
+                <h2 class="section-title">Where Comfort Meets Wilderness</h2>
+                <p class="section-subtitle">Each suite is designed to immerse you in nature while providing world-class amenities</p>
+            </div>
+            <div class="rooms-grid">
+                <div class="room-card featured">
+                    <div class="room-image">
+                        <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600" alt="Safari Suite">
+                        <div class="room-badge">Most Popular</div>
+                    </div>
+                    <div class="room-content">
+                        <h3>Safari Suite</h3>
+                        <p>Panoramic views of the savanna with private balcony and outdoor shower</p>
+                        <ul class="room-amenities">
+                            <li><i class="fas fa-bed"></i> King Bed</li>
+                            <li><i class="fas fa-wifi"></i> Free WiFi</li>
+                            <li><i class="fas fa-bath"></i> Luxury Bath</li>
+                            <li><i class="fas fa-wind"></i> AC</li>
+                        </ul>
+                        <div class="room-footer">
+                            <span class="room-price">From $450<span>/night</span></span>
+                            <a href="#booking" class="btn btn-small">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="room-card">
+                    <div class="room-image">
+                        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600" alt="Treehouse Lodge">
+                    </div>
+                    <div class="room-content">
+                        <h3>Treehouse Lodge</h3>
+                        <p>Elevated luxury among ancient baobab trees with 360° wildlife views</p>
+                        <ul class="room-amenities">
+                            <li><i class="fas fa-bed"></i> Queen Bed</li>
+                            <li><i class="fas fa-binoculars"></i> Viewing Deck</li>
+                            <li><i class="fas fa-star"></i> Stargazing Roof</li>
+                        </ul>
+                        <div class="room-footer">
+                            <span class="room-price">From $650<span>/night</span></span>
+                            <a href="#booking" class="btn btn-small">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="room-card">
+                    <div class="room-image">
+                        <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=600" alt="Family Bungalow">
+                    </div>
+                    <div class="room-content">
+                        <h3>Family Bungalow</h3>
+                        <p>Spacious retreat perfect for families with private plunge pool</p>
+                        <ul class="room-amenities">
+                            <li><i class="fas fa-users"></i> Sleeps 6</li>
+                            <li><i class="fas fa-swimming-pool"></i> Private Pool</li>
+                            <li><i class="fas fa-fire"></i> Fire Pit</li>
+                        </ul>
+                        <div class="room-footer">
+                            <span class="room-price">From $850<span>/night</span></span>
+                            <a href="#booking" class="btn btn-small">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="room-card">
+                    <div class="room-image">
+                        <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=600" alt="Honeymoon Villa">
+                        <div class="room-badge romantic">Romantic</div>
+                    </div>
+                    <div class="room-content">
+                        <h3>Honeymoon Villa</h3>
+                        <p>Ultimate romantic escape with butler service and private safari vehicle</p>
+                        <ul class="room-amenities">
+                            <li><i class="fas fa-heart"></i> Couples Spa</li>
+                            <li><i class="fas fa-champagne-glasses"></i> Champagne</li>
+                            <li><i class="fas fa-car"></i> Private Safari</li>
+                        </ul>
+                        <div class="room-footer">
+                            <span class="room-price">From $1,200<span>/night</span></span>
+                            <a href="#booking" class="btn btn-small">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mukombe Bar Section -->
+    <section class="mukombe-bar" id="mukombe-bar">
+        <div class="bar-parallax"></div>
+        <div class="bar-overlay"></div>
+        <div class="container">
+            <div class="bar-content">
+                <div class="bar-header">
+                    <span class="bar-icon">🍸</span>
+                    <h2 class="bar-title">Mukombe Bar</h2>
+                    <p class="bar-tagline">"Where Stories Flow Like the Zambezi"</p>
+                </div>
+                <div class="bar-description">
+                    <p>
+                        The legendary Mukombe Bar is the soul of Savanna Wild Lodge. Named after the traditional
+                        African drinking vessel, our bar is where adventurers gather to share tales of the day's
+                        safari under a canopy of stars.
+                    </p>
+                </div>
+                <div class="bar-features">
+                    <div class="bar-feature">
+                        <div class="bar-feature-icon">🌅</div>
+                        <h4>Sunset Sessions</h4>
+                        <p>Daily sundowner cocktails with savanna views</p>
+                    </div>
+                    <div class="bar-feature">
+                        <div class="bar-feature-icon">🥃</div>
+                        <h4>Safari Spirits</h4>
+                        <p>Curated African whiskeys & craft gins</p>
+                    </div>
+                    <div class="bar-feature">
+                        <div class="bar-feature-icon">🎵</div>
+                        <h4>Live Rhythms</h4>
+                        <p>Traditional music every evening</p>
+                    </div>
+                    <div class="bar-feature">
+                        <div class="bar-feature-icon">🔥</div>
+                        <h4>Boma Nights</h4>
+                        <p>Fireside dining under the stars</p>
+                    </div>
+                </div>
+                <div class="signature-drinks">
+                    <h3>Signature Cocktails</h3>
+                    <div class="drinks-grid">
+                        <div class="drink-card">
+                            <span class="drink-icon">🦁</span>
+                            <h4>Lion's Roar</h4>
+                            <p>Amarula, espresso, African honey, cream</p>
+                            <span class="drink-price">$16</span>
+                        </div>
+                        <div class="drink-card">
+                            <span class="drink-icon">🌿</span>
+                            <h4>Bush Sundowner</h4>
+                            <p>Gin, rooibos, citrus, buchu bitters</p>
+                            <span class="drink-price">$14</span>
+                        </div>
+                        <div class="drink-card">
+                            <span class="drink-icon">🌙</span>
+                            <h4>Mukombe Magic</h4>
+                            <p>Rum, baobab, ginger, star anise</p>
+                            <span class="drink-price">$15</span>
+                        </div>
+                        <div class="drink-card">
+                            <span class="drink-icon">🌺</span>
+                            <h4>Savanna Bloom</h4>
+                            <p>Vodka, hibiscus, elderflower, prosecco</p>
+                            <span class="drink-price">$17</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bar-hours">
+                    <p><i class="fas fa-clock"></i> Open Daily: 11:00 AM - Late | Happy Hour: 5:00 PM - 7:00 PM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiences Section -->
+    <section class="experiences" id="experiences">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Safari Experiences</span>
+                <h2 class="section-title">Adventures Await</h2>
+                <p class="section-subtitle">Curated experiences that bring you closer to Africa's wild heart</p>
+            </div>
+            <div class="experiences-grid">
+                <div class="experience-card large">
+                    <div class="experience-image">
+                        <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800" alt="Game Drive">
+                    </div>
+                    <div class="experience-overlay"></div>
+                    <div class="experience-content">
+                        <span class="experience-tag">Signature</span>
+                        <h3>Big Five Game Drive</h3>
+                        <p>Expert-guided sunrise and sunset drives through pristine wilderness</p>
+                        <span class="experience-duration"><i class="fas fa-clock"></i> 4-5 hours</span>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-image">
+                        <img src="https://images.unsplash.com/photo-1504618223053-559bdef9dd5a?w=600" alt="Walking Safari">
+                    </div>
+                    <div class="experience-overlay"></div>
+                    <div class="experience-content">
+                        <h3>Walking Safari</h3>
+                        <p>Track wildlife on foot with armed rangers</p>
+                        <span class="experience-duration"><i class="fas fa-clock"></i> 3 hours</span>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-image">
+                        <img src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=600" alt="Hot Air Balloon">
+                    </div>
+                    <div class="experience-overlay"></div>
+                    <div class="experience-content">
+                        <span class="experience-tag">Premium</span>
+                        <h3>Balloon Safari</h3>
+                        <p>Soar above the savanna at sunrise</p>
+                        <span class="experience-duration"><i class="fas fa-clock"></i> 2 hours</span>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-image">
+                        <img src="https://images.unsplash.com/photo-1518709766631-a6a7f45921c3?w=600" alt="Cultural Visit">
+                    </div>
+                    <div class="experience-overlay"></div>
+                    <div class="experience-content">
+                        <h3>Village Experience</h3>
+                        <p>Connect with local Maasai communities</p>
+                        <span class="experience-duration"><i class="fas fa-clock"></i> Half day</span>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-image">
+                        <img src="https://images.unsplash.com/photo-1534177616064-ef1082d2d3ee?w=600" alt="Night Safari">
+                    </div>
+                    <div class="experience-overlay"></div>
+                    <div class="experience-content">
+                        <h3>Night Safari</h3>
+                        <p>Discover nocturnal predators</p>
+                        <span class="experience-duration"><i class="fas fa-clock"></i> 3 hours</span>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-image">
+                        <img src="https://images.unsplash.com/photo-1517960413843-0aee8e2b3285?w=600" alt="Bush Dining">
+                    </div>
+                    <div class="experience-overlay"></div>
+                    <div class="experience-content">
+                        <span class="experience-tag">Romantic</span>
+                        <h3>Bush Dinner</h3>
+                        <p>Private dining under African stars</p>
+                        <span class="experience-duration"><i class="fas fa-clock"></i> Evening</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Gallery</span>
+                <h2 class="section-title">Capture the Magic</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="wildlife">
+                    <img src="https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=600" alt="Lion">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item tall" data-category="lodge">
+                    <img src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=600" alt="Sunrise">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="wildlife">
+                    <img src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=600" alt="Elephant">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item wide" data-category="bar">
+                    <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=800" alt="Bar">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="wildlife">
+                    <img src="https://images.unsplash.com/photo-1534759846116-5799c33ce22a?w=600" alt="Zebras">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item tall" data-category="wildlife">
+                    <img src="https://images.unsplash.com/photo-1521651201144-634f700b36ef?w=600" alt="Giraffe">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="experience">
+                    <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?w=600" alt="Safari">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="lodge">
+                    <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=600" alt="Pool">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Guest Stories</span>
+                <h2 class="section-title">What Our Guests Say</h2>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-card active">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "The Mukombe Bar at sunset is simply magical. We watched elephants at the waterhole
+                        while sipping the most incredible cocktails. This place is pure heaven on earth."
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100" alt="Guest">
+                        <div>
+                            <h4>Sarah Mitchell</h4>
+                            <span>New York, USA</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Our honeymoon here exceeded every expectation. The staff, the wildlife, the
+                        accommodations - everything was absolutely perfect. We're already planning our return!"
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100" alt="Guest">
+                        <div>
+                            <h4>James & Emma Clarke</h4>
+                            <span>London, UK</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "As a wildlife photographer, I've stayed at lodges worldwide. Savanna Wild offers
+                        unparalleled access to incredible wildlife moments. The guides are exceptional."
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100" alt="Guest">
+                        <div>
+                            <h4>Marcus Chen</h4>
+                            <span>Sydney, Australia</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking" id="booking">
+        <div class="container">
+            <div class="booking-wrapper">
+                <div class="booking-info">
+                    <span class="section-label">Reservations</span>
+                    <h2 class="section-title">Book Your Safari</h2>
+                    <p>Let us craft your perfect African adventure. Our concierge team is ready to design
+                       a bespoke experience tailored to your dreams.</p>
+                    <div class="booking-contact">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+254 700 123 456</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>reservations@savannawild.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Maasai Mara, Kenya</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="booking-form" id="bookingForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="checkin">Check-in Date</label>
+                            <input type="date" id="checkin" name="checkin" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="checkout">Check-out Date</label>
+                            <input type="date" id="checkout" name="checkout" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="guests">Number of Guests</label>
+                            <select id="guests" name="guests">
+                                <option value="1">1 Guest</option>
+                                <option value="2" selected>2 Guests</option>
+                                <option value="3">3 Guests</option>
+                                <option value="4">4 Guests</option>
+                                <option value="5+">5+ Guests</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="room">Accommodation</label>
+                            <select id="room" name="room">
+                                <option value="safari-suite">Safari Suite</option>
+                                <option value="treehouse">Treehouse Lodge</option>
+                                <option value="family">Family Bungalow</option>
+                                <option value="honeymoon">Honeymoon Villa</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Special Requests</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Tell us about your dream safari..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-large">Request Reservation</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255282.35853437807!2d34.89859395!3d-1.4060802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182cd37b56037289%3A0x8f8a9c36e5d0f!2sMaasai%20Mara%20National%20Reserve!5e0!3m2!1sen!2ske!4v1699900000000!5m2!1sen!2ske"
+                        allowfullscreen=""
+                        loading="lazy">
+                    </iframe>
+                </div>
+                <div class="contact-info-card">
+                    <h3>Find Us</h3>
+                    <p>Located in the heart of the Maasai Mara ecosystem, our lodge is accessible by charter flight or scenic road transfer.</p>
+                    <div class="contact-details">
+                        <div class="detail">
+                            <i class="fas fa-plane"></i>
+                            <div>
+                                <strong>By Air</strong>
+                                <p>Daily flights from Nairobi Wilson Airport (1hr)</p>
+                            </div>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-car"></i>
+                            <div>
+                                <strong>By Road</strong>
+                                <p>5-hour scenic drive from Nairobi (transfers available)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#home" class="logo">
+                        <span class="logo-icon">🌿</span>
+                        <span class="logo-text">Savanna Wild</span>
+                    </a>
+                    <p>Experience the magic of Africa at our award-winning lodge and the legendary Mukombe Bar.</p>
+                    <div class="footer-awards">
+                        <span class="award">🏆 TripAdvisor Excellence 2024</span>
+                        <span class="award">🌍 Eco-Tourism Certified</span>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#accommodations">Accommodations</a></li>
+                        <li><a href="#mukombe-bar">Mukombe Bar</a></li>
+                        <li><a href="#experiences">Safari Experiences</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="#">Conservation</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#">Travel Guide</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Safari Updates</h4>
+                    <p>Subscribe for wildlife sightings and exclusive offers</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address">
+                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Savanna Wild Lodge & Mukombe Bar. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close">&times;</button>
+        <button class="lightbox-prev"><i class="fas fa-chevron-left"></i></button>
+        <button class="lightbox-next"><i class="fas fa-chevron-right"></i></button>
+        <img src="" alt="Gallery Image" class="lightbox-image">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
