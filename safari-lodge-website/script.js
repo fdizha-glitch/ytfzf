@@ -551,5 +551,5 @@ rippleStyle.textContent = `
 `;
 document.head.appendChild(rippleStyle);
 
-console.log('🦁 Savanna Wild Lodge & Mukombe Bar - Website Initialized');
+console.log('🦁 Stream Valley Lodge & Mukombe Bar - Website Initialized');
 console.log('🍸 Welcome to Mukombe Bar - Where Stories Flow Like the Zambezi');
